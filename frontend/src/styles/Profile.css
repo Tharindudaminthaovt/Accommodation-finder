@@ -1,0 +1,534 @@
+.profile {
+    display: flex;
+}
+
+.profile-navigation {
+    width: 25%;
+    text-align: center;
+    margin: 20px;
+}
+
+.profile-navigation button {
+    background-color: #F5F5F5;
+    width: 100%;
+    border: none;
+    font-weight: 500;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.clicked{
+    background-color: black !important;
+    color: white;
+}
+
+.profile-details {
+    margin: 10px;
+}
+
+.profile-details img {
+    height: 100px;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.profile-details-2 {
+    margin-top: 20px;
+}
+
+.profile-details-2 p {
+    margin: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.profile-details-2 p span {
+    font-weight: bold;
+}
+
+.profile-details-2 button {
+    margin: 20px;
+    border: none;
+    padding: 10px;
+    background-color: #3737FC;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.profile-details-2 button:hover {
+    background-color: rgb(77, 77, 255);
+    transition: 0.3s ease-in-out;
+}
+
+.profile-detail-section {
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.profile-detail-section::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* addProperty */
+
+.add-property {
+    margin: 20px;
+    position: absolute;
+    width: 75%;
+    padding-bottom: 20px;
+    height: 85vh;
+    overflow-y: scroll;
+}
+
+.propertyStatus {
+    margin: 20px;
+}
+
+.add-property::-webkit-scrollbar {
+    display: none;
+}
+
+.add-property form {
+    margin-top: 20px;
+}
+
+.addp-titles {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #7b7c7e;
+    font-size: 20px;
+}
+
+.addp-titles-instruction {
+    color: #7b7c7e;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.add-property form input {
+    width: 80%;
+    margin-top: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: #F5F5F5;
+    padding: 10px;
+    border: 2px solid #a5a4a4;
+    border-radius: 10px;
+}
+
+.add-property form textarea {
+    width: 80%;
+    font-size: 15px;
+    background-color: #F5F5F5;
+    padding: 10px;
+    border: 2px solid #a5a4a4;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.add-property form span {
+    color: #7b7c7e;
+}
+
+.selected-images-addp {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.selected-images-addp::-webkit-scrollbar {
+    display: none;
+}
+
+.selected-images-addp img {
+    height: 150px;
+    margin: 20px;
+}
+
+.remove-images {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 7px 10px 7px 10px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.remove-images:hover {
+    background-color: rgb(250, 58, 58);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.add-location {
+    background-color: #3737FC;
+    margin-top: 15px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.add-property-btn-item {
+    display: flex;
+    justify-content: end;
+}
+
+.add-property-btn {
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 7px 15px 7px 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.addp-locations {
+    display: flex;
+    margin-top: 15px;
+}
+
+.addp-locations div {
+    width: 50%;
+}
+
+/* property status */
+
+.propertyStatus {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* propertyItem */
+
+.propertyItem {
+    width: 300px;
+    background-color: #F5F5F5;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+.propertyItem button {
+    background-color: #3737FC;
+    margin: 10px;
+    color: white;
+    border: none;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.propertyItem-delete {
+    background-color: red !important;
+}
+
+/* OFFERS */
+
+.offers-main {
+    height: 86vh;
+    overflow-y: scroll;
+}
+
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offers-main::-webkit-scrollbar {
+    display: none;
+}
+
+.offer-card {
+    background-color: #F5F5F5;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    line-height: 30px;
+    border-radius: 20px;
+}
+
+.offer-card button {
+    margin: 10px;
+    background-color: #3737FC;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.btn-decline {
+    background-color: red !important;
+}
+
+.accepted-text {
+    color: green;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.newAds {
+   margin: 20px;
+   height: 88vh;
+   overflow-y: scroll;
+}
+
+.newAds::-webkit-scrollbar {
+    display: none;
+}
+
+.newAds-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newAds-popup {
+    position: absolute;
+    height: 550px;
+    width: 600px;
+    background-color: white;
+    top: 10%;
+    left: 30%;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.newAds-popup h2 {
+    margin-top: 30px;
+}
+
+.newAds-popup::-webkit-scrollbar {
+    display: none;
+}
+
+.close-btn-newAds {
+    height: 30px;
+    position: absolute;
+    right: 0%;
+}
+
+.newAds-popup-images {
+    display: flex;
+    gap: 2rem;
+    margin-top: 20px;
+    overflow-x: scroll;
+}
+
+.newAds-popup-images::-webkit-scrollbar {
+    display: none;
+}
+
+.newAds-popup-images img {
+    height: 150px;
+}
+
+.newAds-popup p {
+    margin: 10px;
+    line-height: 30px;
+}
+
+.reservations {
+    margin: 20px;
+}
+
+/* reservations */
+
+.reservations {
+    height: 88vh;
+    overflow-y: scroll;
+}
+
+.reservations::-webkit-scrollbar {
+    display: none;
+}
+
+.reservations-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reservation-card {
+    background-color: #F5F5F5;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    line-height: 30px;
+}
+
+.reservation-card p span {
+    font-weight: 600;
+}
+
+.reservation-card button {
+    background-color: red;
+    color: white;
+    padding: 7px 10px 7px 10px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;    
+    cursor: pointer;
+}
+
+.reservation-card button:hover {
+    background-color: rgb(255, 74, 74);
+    transition: 0.3s ease-in-out;
+}
+
+/* Create Account */
+
+.create-account {
+    margin: 20px;
+}
+
+.create-form-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.create-form-inputs input {
+    width: 300px;
+    margin: 20px 20px 20px 0px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.create-form-inputs select {
+    width: 300px;
+    padding: 10px;
+    margin: 20px 20px 20px 0px;
+    border: none;
+    outline: none;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.create-account button {
+    background-color: #3737FC;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.create-account button:hover {
+    background-color: #6363fc;
+    transition: 0.3s ease-in-out;
+}
+
+/* Create articles */
+
+.create-articles {
+    margin: 20px;
+    line-height: 30px;
+    overflow-y: scroll;
+}
+.create-articles::-webkit-scrollbar {
+    display: none;
+}
+
+.create-articles form input {
+    padding: 10px;
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    width: 50%;
+    outline: none;
+}
+
+.create-articles form textarea {
+    width: 90%;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.create-articles p {
+    margin-top: 20px;
+}
+
+.create-articles button {
+    background-color: #3737FC;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    padding: 7px 15px 7px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.create-articles button:hover {
+    background-color: #6363fc;
+    transition: 0.3 ease-in-out;
+}
+
+/* Current Articles */
+
+.current-articles {
+    margin: 20px;
+    overflow-y: scroll;
+    height: 88vh;
+}
+
+.current-articles::-webkit-scrollbar {
+    display: none;
+}
+
+.current-article-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.current-article-item {
+    width: 300px;
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+    margin: 20px;
+}
+
+.current-article-item button {
+    background-color: #3737FC;
+    color: white;
+    border: none;
+    margin: 10px;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.current-article-item button:hover {
+    background-color: #6363fc;
+    transition: 0.3s ease-in-out;
+}
+
+.delete-article {
+    background-color: red !important;
+}
+
+.delete-article:hover {
+    background-color: rgb(243, 100, 100) !important;
+}

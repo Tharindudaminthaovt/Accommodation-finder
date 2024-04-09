@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-left a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.nav-left a:hover {
+    color: rgb(92, 88, 88);
+}
+
+.nav-name {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-login {
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.nav-signin {
+    color: black;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}

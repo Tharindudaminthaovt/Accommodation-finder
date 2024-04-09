@@ -1,0 +1,30 @@
+.detailsItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.detailsItem-details {
+    line-height: 30px;
+}
+
+.detailsItem-price {
+    font-weight: bold !important;
+    color: rgb(59, 59, 59);   
+    margin-top: 5px; 
+}
+
+.detailsItem-details p {
+    color: darkgrey;
+    font-weight: 400;
+}
+
+.detailsItem img {
+    height: 70px;
+    border-radius: 5px;
+}
